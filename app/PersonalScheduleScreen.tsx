@@ -55,13 +55,13 @@ const PersonalScheduleScreen = () => {
 
       <TextInput
         style={styles.input}
-        placeholder="Judul (misal: Bersantai di pantai)"
+        placeholder="Judul (misal: kegiatan majelis dzikir)"
         value={title}
         onChangeText={setTitle}
       />
       <TextInput
         style={styles.input}
-        placeholder="Waktu (misal: 06:00)"
+        placeholder="Waktu (misal: 07:00)"
         value={time}
         onChangeText={setTime}
       />
